@@ -1,0 +1,21 @@
+[project]
+name = "sphinx-revealjs-174"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Kazuya Takei", email = "myself@attakei.net" }
+]
+dependencies = [
+    "sphinx-revealjs==3.0.2",
+    "sphinx==7.2.6",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
+
+[tool.rye.scripts]
+make = "make"
